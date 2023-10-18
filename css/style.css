@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    background-repeat: no-repeat;
+}
+
+.popup{
+    background-color: #747b8e;
+    width: 100%;
+    height: 56px;
+    position: relative;
+}
+
+.popup .txt{
+    font-size: 12px;
+    color: #fff;
+    padding-left: 44px;
+    padding-top: 11px;
+    background-image: url(../images/top_app.png);
+    background-repeat: no-repeat;
+    background-size: 28px auto;
+    background-position: 10px 13px;
+}
+
+.popup .button{}
+
+.popup .button .app{
+    position: absolute;
+    top: 0;
+    right: 52px;
+    padding: 14px 0;
+}
+
+.popup .button .app img{
+    height: 28px;
+    width: auto;
+}
+
+.popup .button .close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    padding: 20px 13px;
+}
+
+.popup .button .close img{
+    width: 16px;
+    height: auto;
+}
+
+.header{
+    height: 50px;
+    position: relative;
+}
+
+.header .up{
+    display: flex;
+    padding-top: 11px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header .up .left{
+    position: absolute;
+    left: 11px;
+}
+
+.header .up .left img{
+    width: 18px;
+}
+
+
+.header .up .logo{
+    margin: 0 auto;
+}
+
+.header .up .logo img{
+    height: 20px;
+    width: auto;
+    vertical-align: 5px;
+}
+
+.header .up .right{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 20;
+}
+
+.header .up .right .search{
+    position: absolute;
+    right: 50px;
+}
+
+.header .up .right .search img{
+    height: 20px;
+    width: auto;
+}
+
+.header .up .right .info img{
+    height: 20px;
+    width: auto;
+}
+
+.header .down{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.header .down .nav{
+    display: flex;
+    width: 100%;
+}
+
+.header .down .nav li{
+    padding-left: 40px;
+    font-size: 16px;
+    color: #444;
+    width: 100%;
+}
+
+.header .add{
+    position: absolute;
+    right: 10px;
+}
+
+.banner{}
+
+.banner img{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.banner .page{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 12px;
+    border-radius: 100px;
+}
